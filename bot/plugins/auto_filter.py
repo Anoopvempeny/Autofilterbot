@@ -128,7 +128,7 @@ async def auto_filter(bot: Client, update: Message):
                     InlineKeyboardButton(button_text, url=file_link)
                 ]
             )
-            if (f"https://t.me/{bot_.username}"?):
+            if (f"https://t.me/{bot_.username}?start"):
                  f"https://t.me/{bot_.username}?start={unique_id}"
                  return
                 
