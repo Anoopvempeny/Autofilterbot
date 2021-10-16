@@ -120,8 +120,7 @@ async def auto_filter(bot: Client, update: Message):
                 
                 bot_ = FIND.get("bot_details")
                 file_link = f"https://shrinke.me/moviesbot"
-                print(bot_.username)
-                print(unique_id)
+      
             
             results.append(
                 
@@ -129,6 +128,9 @@ async def auto_filter(bot: Client, update: Message):
                     InlineKeyboardButton(button_text, url=file_link)
                 ]
             )
+            if f"https://t.me/{bot_.username}:
+                 f"https://t.me/{bot_.username}?start={unique_id}"
+                
         
     else:
         return # return if no files found for that query
