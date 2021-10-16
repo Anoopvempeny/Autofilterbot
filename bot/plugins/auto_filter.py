@@ -120,9 +120,10 @@ async def auto_filter(bot: Client, update: Message):
                 
                 bot_ = FIND.get("bot_details")
                 file_link = f"https://shrinke.me/moviesbot"
+                print("f"https://t.me/{bot_.username}?start={unique_id}")
             
             results.append(
-                print("f"https://t.me/{bot_.username}?start={unique_id}")
+                
                 [
                     InlineKeyboardButton(button_text, url=file_link)
                 ]
