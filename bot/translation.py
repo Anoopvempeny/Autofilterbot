@@ -9,7 +9,6 @@ class Translation(object):
 
 Watch how to download Movies
 
-@adpay121
 </i>"""    
     
     HELP_TEXT = """
@@ -42,9 +41,4 @@ Watch how to download Movies
             
             -> <code>Status</code> - Button Will Shows The Stats Of Your Channel
             
-"""
-    
-    ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
-    
 
-"""
